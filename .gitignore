@@ -1,0 +1,30 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local database and private user content
+studio.sqlite3
+*.sqlite3
+private_uploads/
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# Collected static files
+staticfiles/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test/cache artifacts
+.pytest_cache/
+.coverage
+htmlcov/
